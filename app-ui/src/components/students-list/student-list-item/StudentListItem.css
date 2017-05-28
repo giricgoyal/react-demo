@@ -1,0 +1,13 @@
+.studentListItem {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+.studentListItem:hover,
+.studentListItem.selected {
+    background-color: rgb(50, 118, 180);
+    color: white !important;
+    font-weight: bold;
+}

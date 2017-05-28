@@ -1,0 +1,14 @@
+.item {
+    display: block;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-top: 1px solid rgb(158,196,228);
+    border-bottom: 1px solid rgb(158,196,228);
+}
+
+.item:hover,
+.selected {
+    background-color: rgb(148, 198, 225);
+    border-top: 1px solid rgb(50, 118, 180);
+    border-bottom: 1px solid rgb(50, 118, 180);
+}
