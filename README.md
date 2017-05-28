@@ -1,5 +1,5 @@
 # react-demo
 
-To run the demo, in appUi directory run:
+To run the demo, in app-ui directory run:
 
 npm start 
