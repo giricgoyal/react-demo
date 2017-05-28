@@ -5,12 +5,14 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "recharts": "^1.0.0-alpha.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.6"
   },
   "scripts": {
+    "prestart": "npm install",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
